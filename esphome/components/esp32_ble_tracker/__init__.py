@@ -17,7 +17,7 @@ from esphome.const import (
 )
 
 ESP_PLATFORMS = [ESP_PLATFORM_ESP32]
-AUTO_LOAD = ["xiaomi_ble", "ruuvi_ble"]
+AUTO_LOAD = ['xiaomi_ble', 'ruuvi_ble', 'oralb_ble']
 
 CONF_ESP32_BLE_ID = "esp32_ble_id"
 CONF_SCAN_PARAMETERS = "scan_parameters"
